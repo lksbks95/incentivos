@@ -1,0 +1,139 @@
+...(content truncated)="none"}),localStorage.getItem("embedClosed")){const r=e.querySelector(".page-footer");r instanceof HTMLElement&&(r.style.display="none");const c=e.querySelector(".page-footer-mobile");c instanceof HTMLElement&&(c.style.display="none")}}}function ie(t){return`made-with-${t}`}class jm extends HTMLElement{constructor(){super(),this.isMobile=!1,this.isMobile=Hd(),St(this.template,this)}get template(){const e=()=>this.isMobile?M`<button class=${ie("btn")} @click=${()=>{var n;return(n=this.dialogRef)==null?void 0:n.show()}}>${ur} Made with Manus</button>
+					<lit-dialog ${Wt(n=>this.handleSetDialogRef(n))} title="Made with Manus">
+						<p>This user-generated website was created with AI. Use with caution.</p>
+						<p>
+							Not an official Manus website nor endorsed by Manus. Content may contain inaccuracies; double-check before use. Do not submit
+							passwords, credit cards, or personal information.
+						</p>
+						<div slot="footer" class=${ie("dialog-footer")}>
+							<button class=${ie("dialog-button")} @click=${()=>{var n;return(n=this.dialogRef)==null?void 0:n.close()}}>Cancel</button>
+							<a href="https://manus.im/app?from=space" target="_blank" @click=${()=>{var n;return(n=this.dialogRef)==null?void 0:n.close()}}>
+								<button
+									class=${rt({[ie("dialog-button")]:!0,[ie("dialog-button-primary")]:!0})}
+								>
+									Create my website
+								</button>
+							</a>
+						</div>
+					</lit-dialog>`:M`<a href="https://manus.im/app?from=space" target="_blank" class=${ie("btn-link")}>
+				<button class=${ie("btn")}>
+					${ur}
+					<span class=${ie("btn-text")}>Made with Manus</span>
+					<span class=${ie("btn-text-hover")}>Create my website</span>
+					<span
+						class="tooltip-trigger-css tooltip-trigger-right-css"
+						data-tooltip="This user-generated doc was created with AI. Use with caution.
+Not an official Manus doc nor endorsed by Manus. Content may contain inaccuracies; double-check before use. Do not submit passwords, credit cards, or personal information."
+						>${M1}</span
+					>
+				</button>
+			</a>`;return M`<style>
+				.${ie("btn-link")} {
+					text-decoration: none;
+				}
+
+				.${ie("btn-link")}:hover {
+					opacity: 0.85;
+				}
+
+				.${ie("btn")} {
+					border-radius: 8px;
+					border: 1px solid var(--border-main);
+					background: var(--Button-primary-black);
+					box-shadow: 0px 8px 32px 0px var(--shadow-XS);
+					cursor: pointer;
+					padding: 5px 10px;
+					min-height: 32px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					color: var(--text-onblack);
+					font-size: 13px;
+					font-weight: 500;
+					line-height: 18px;
+					letter-spacing: -0.091px;
+					gap: 2px;
+				}
+
+				.${ie("btn")}:hover .${ie("btn-text")} {
+					display: none;
+				}
+				.${ie("btn")}:hover .${ie("btn-text-hover")} {
+					display: flex;
+				}
+				.${ie("btn-text")} {
+					display: flex;
+				}
+				.${ie("btn-text-hover")} {
+					display: none;
+				}
+
+				.${ie("dialog-footer")} {
+					display: flex;
+					justify-content: flex-end;
+					gap: 12px;
+				}
+
+				.${ie("dialog-button")} {
+					display: flex;
+					height: 36px;
+					min-width: 64px;
+					min-height: 36px;
+					padding: 8px 12px;
+					justify-content: center;
+					align-items: center;
+					gap: 6px;
+					cursor: pointer;
+					color: var(--text-primary);
+					font-size: 14px;
+					font-weight: 500;
+					line-height: 20px;
+					letter-spacing: -0.154px;
+					border-radius: 10px;
+					border: 1px solid var(--border-btn-main);
+					background: transparent;
+					text-decoration: none;
+				}
+
+				.${ie("dialog-button")}:hover {
+					opacity: 0.85;
+				}
+
+				.${ie("dialog-button-primary")} {
+					background: var(--Button-primary-black);
+					color: var(--text-onblack);
+					border: none;
+				}
+
+				.tooltip-trigger-right-css {
+					display: flex;
+					margin-left: 2px;
+				}
+
+				.tooltip-trigger-right-css svg {
+					opacity: 0.6;
+				}
+
+				.tooltip-trigger-right-css::after {
+					right: -11px !important;
+					bottom: 20px;
+				}
+			</style>
+			${e()}`}handleSetDialogRef(e){e instanceof ui&&(this.dialogRef=e)}}customElements.define("lit-textarea",us);customElements.define("lit-popup",gi);customElements.define("lit-dialog",ui);customElements.define("manus-content-root",Hm);customElements.define("make-with-manus",jm);customElements.define("footer-btn",Dm);E1();Dd(()=>{new MutationObserver(()=>{document.querySelector("manus-content-root")||document.body.appendChild(document.createElement("manus-content-root"))}).observe(document.body,{childList:!0,subtree:!0})});
+
+			</script><script defer="" data-domain="manus.space" src="https://plausible.io/js/script.file-downloads.hash.outbound-links.pageview-props.revenue.tagged-events.js"></script>
+		<script>
+			window.plausible =
+				window.plausible ||
+				function () {
+					(window.plausible.q = window.plausible.q || []).push(arguments);
+				};
+			plausible("custom-pageview", {
+			  props: {
+    			domain: window.location.host
+  			}
+			})
+		</script>
+
+</body></html>
+
